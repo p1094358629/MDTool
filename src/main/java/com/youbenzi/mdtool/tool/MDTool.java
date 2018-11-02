@@ -13,7 +13,7 @@ import com.youbenzi.mdtool.markdown.bean.Block;
 public class MDTool {
 
 	public static String markdown2Html(File file){
-		try (BufferedReader reader = new BufferedReader(new FileReader(file));){
+		try (BufferedReader reader = new BufferedReader(new FileReader(file))){
 			String lineStr = null;
 			
 			StringBuffer sb = new StringBuffer();
